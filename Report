@@ -1,0 +1,42 @@
+Bug Report: Improper Access Control on Website
+
+Summary:
+The website currently exhibits a critical security flaw related to improper access control, specifically concerning the accessibility of official documents. Despite the intention to restrict access to official documents, they are freely viewable by the public without any authentication or authorization requirements.
+
+Description:
+Upon navigating to the official documents section of the website, it was observed that all documents, presumably meant to be restricted to authorized personnel or members, are openly accessible without any form of authentication or access control mechanisms in place. This poses a significant security risk as sensitive information could be exposed to unauthorized individuals, potentially leading to data breaches or other malicious activities.
+
+Steps to Reproduce:
+
+Visit "https://jvvkukatpally.com/admin/uploads/".
+Observe that all documents are freely accessible without any login or authentication requirements.
+Expected Behavior:
+Access to official documents should be restricted to authorized users only. Users without proper authentication or authorization should not be able to view sensitive documents.
+
+Actual Behavior:
+All official documents are freely accessible to the public without any access control measures in place.
+
+Impact:
+This vulnerability could lead to unauthorized access to sensitive information, potentially compromising the confidentiality and integrity of the documents and the overall security of the website.
+
+Recommendation:
+
+Implement robust access control mechanisms to restrict access to official documents based on user authentication and authorization.
+Conduct a thorough security audit to identify any other potential vulnerabilities on the website.
+Regularly monitor access logs and implement intrusion detection systems to detect and respond to any unauthorized access attempts.
+Severity:
+Critical
+
+Priority:
+High
+
+Attachments:
+Found in the files
+
+Environment:
+Operating System: Windows 11
+Browser: Google Chrome
+Website URL: https://jvvkukatpally.com/admin/uploads/
+
+Additional Information:
+The current bug has been reported to the respective site owner via openbugbounty.
